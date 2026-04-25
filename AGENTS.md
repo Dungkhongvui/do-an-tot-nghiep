@@ -69,6 +69,7 @@ SHORT_TERM_ELECTRICITY_LOAD_FORECASTING/
 │       ├── model_v1.py   # Baseline ELM
 │       │   
 │       ├── model_v2.py   # ELM-PSO
+├── thesis_code/
 │       │   
 │       ├── clean_data.py # Làm sạch dữ liệu, xử lý thiếu, ngoại lai, chuẩn hóa (sau merge_data.py)
 │       │   
@@ -90,7 +91,13 @@ SHORT_TERM_ELECTRICITY_LOAD_FORECASTING/
 
 ## Coding convention
 
+Source code C tuân theo **Style Guide for Python Code**:
+- Sử dụng 4 khoảng trắng liên tiếp để chỉ ra vị trí thụt lề.
+- Ưu tiên khoảng trống hơn các tab.
+- Tên class: đặt theo PascalCase, thường là những cụm danh từ: MyFirstClass
+- 
 
+Tham khảo: https://peps.python.org/pep-0008/
 
 ## Build
 
@@ -103,3 +110,7 @@ SHORT_TERM_ELECTRICITY_LOAD_FORECASTING/
 
 
 ## Ngôn ngữ
+
+- Commit message: ưu tiên **tiếng Việt**
+- Học liệu markdown: tiếng Việt xen tiếng Anh (thuật ngữ kỹ thuật giữ nguyên tiếng Anh)
+- Code comment: tiếng Anh
