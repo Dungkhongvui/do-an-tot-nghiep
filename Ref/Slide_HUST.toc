@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Giới thiệu bài toán}{5}{0}{1}
+\beamer@sectionintoc {2}{Cơ sở lý thuyết}{6}{0}{2}
+\beamer@sectionintoc {3}{Kiến trúc đề xuất}{9}{0}{3}

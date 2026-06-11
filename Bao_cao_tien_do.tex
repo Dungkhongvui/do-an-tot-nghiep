@@ -1,0 +1,121 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\geometry{
+    a4paper,
+    left=3cm,
+    right=2cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+% Cấu hình header/footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Báo cáo tiến độ Đồ án tốt nghiệp}
+\lhead{Họ và tên sinh viên}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm}
+        
+        \Large \textbf{ĐẠI HỌC BÁCH KHOA HÀ NỘI} \\
+        \large \textbf{TRƯỜNG ĐIỆN - ĐIỆN TỬ} \\
+        \vspace{1cm}
+        \includegraphics[width=0.3\textwidth]{example-image-a} % Thay bằng logo HUST nếu có
+        \vspace{2cm}
+        
+        \huge \textbf{BÁO CÁO TIẾN ĐỘ TÌM HIỂU\\ ĐỒ ÁN TỐT NGHIỆP}
+        
+        \vspace{1.5cm}
+        
+        \Large \textbf{Đề tài: ELECTRICAL LOAD FORECASTING USING ELM-PSO NEURAL NETWORK}
+        
+        \vspace{2cm}
+        
+        \begin{table}[h]
+            \centering
+            \large
+            \begin{tabular}{ll}
+                \textbf{Sinh viên thực hiện:} & [Họ và tên sinh viên] \\
+                \textbf{Mã số sinh viên:} & [MSSV] \\
+                \textbf{Giảng viên hướng dẫn:} & [Họ và tên GVHD] \\
+                \textbf{Thời gian báo cáo:} & Tuần [X] (Từ [Ngày] đến [Ngày])
+            \end{tabular}
+        \end{table}
+        
+        \vfill
+        
+        \large Hà Nội, \today
+    \end{center}
+\end{titlepage}
+
+\newpage
+
+\section*{Tóm tắt tiến độ tuần qua}
+\addcontentsline{toc}{section}{Tóm tắt tiến độ tuần qua}
+Trong tuần vừa qua, tiến độ tìm hiểu đề tài \textbf{Electrical Load Forecasting using ELM-PSO Neural Network} tập trung vào các công việc sau:
+\begin{itemize}
+    \item Đọc hiểu tài liệu tham khảo chính yếu (\textit{DATN\_20251\_ELECTRICAL LOAD FORECASTING USING ELM-PSO NEURAL NETWORK.pdf}).
+    \item Tìm hiểu tổng quan về bài toán dự báo phụ tải điện (Electrical Load Forecasting).
+    \item Nghiên cứu lý thuyết về mạng nơ-ron ELM (Extreme Learning Machine) và thuật toán tối ưu bầy đàn PSO (Particle Swarm Optimization).
+\end{itemize}
+
+\section{Nội dung đã hoàn thành}
+
+\subsection{Tổng quan về bài toán dự báo phụ tải điện}
+\begin{itemize}
+    \item \textbf{Định nghĩa:} Dự báo lượng điện năng tiêu thụ trong tương lai dựa trên dữ liệu lịch sử và các yếu tố ngoại cảnh (thời tiết, giờ giấc, ngày nghỉ...).
+    \item \textbf{Tầm quan trọng:} Giúp hệ thống điện vận hành ổn định, lên kế hoạch phân phối và sản xuất điện năng hiệu quả.
+    \item \textbf{Thách thức:} Dữ liệu phụ tải thường có tính phi tuyến cao, bị ảnh hưởng bởi nhiều yếu tố ngẫu nhiên.
+\end{itemize}
+
+\subsection{Tìm hiểu mạng Extreme Learning Machine (ELM)}
+\begin{itemize}
+    \item ELM là mạng nơ-ron tiến một lớp ẩn (Single-hidden Layer Feedforward Neural Network - SLFN).
+    \item \textbf{Ưu điểm:} Tốc độ học cực nhanh do trọng số ngõ vào và bias của lớp ẩn được khởi tạo ngẫu nhiên, chỉ cần tính toán trọng số ngõ ra bằng ma trận nghịch đảo giả (Moore-Penrose).
+    \item \textbf{Nhược điểm:} Sự ngẫu nhiên trong khởi tạo trọng số ngõ vào đôi khi làm mô hình thiếu ổn định và không đạt mức tối ưu toàn cục.
+\end{itemize}
+
+\subsection{Thuật toán Particle Swarm Optimization (PSO)}
+\begin{itemize}
+    \item Là thuật toán tối ưu hóa siêu tự nhiên lấy cảm hứng từ hành vi bầy đàn của chim và cá.
+    \item \textbf{Ưu điểm:} Dễ cài đặt, có khả năng hội tụ nhanh để tìm ra nghiệm tối ưu toàn cục.
+    \item \textbf{Ứng dụng trong đề tài:} PSO được sử dụng để tối ưu hóa các tham số (trọng số ngõ vào và bias) của mạng ELM, khắc phục nhược điểm khởi tạo ngẫu nhiên của ELM thuần túy.
+\end{itemize}
+
+\section{Đánh giá kết quả đạt được}
+\begin{itemize}
+    \item Đã nắm được cơ sở lý thuyết nền tảng cốt lõi của đề tài.
+    \item Hiểu rõ lý do vì sao cần kết hợp ELM và PSO (ELM-PSO) chứ không dùng ELM độc lập.
+    \item \textbf{Khó khăn gặp phải:} Cần thời gian để hiểu sâu hơn về mặt toán học của việc lai tạo giữa tối ưu bầy đàn và ma trận học của mạng nơ-ron.
+\end{itemize}
+
+\section{Kế hoạch tuần tiếp theo}
+\begin{enumerate}
+    \item Cài đặt môi trường lập trình (Python, MATLAB...) và tải các bộ dữ liệu phụ tải điện mẫu.
+    \item Viết lại luồng thuật toán (Flowchart) của mô hình ELM-PSO.
+    \item Bắt đầu code thử nghiệm mô hình mạng ELM cơ bản để dự báo trên bộ dữ liệu kiểm thử.
+    \item Soạn thảo nội dung chương Tổng quan tài liệu cho báo cáo Đồ án tốt nghiệp cuối kỳ.
+\end{enumerate}
+
+\section{Các câu hỏi và đề xuất với Giảng viên hướng dẫn}
+\begin{itemize}
+    \item \textit{Câu hỏi 1:} Việc chia tập dữ liệu train/test với tỷ lệ nào là phù hợp nhất đối với bộ dữ liệu phụ tải có tính mùa vụ?
+    \item \textit{Câu hỏi 2:} Có cần kết hợp thêm kỹ thuật tiền xử lý dữ liệu nào (như EMD, VMD) trước khi đưa vào ELM-PSO không?
+\end{itemize}
+
+\end{document}
