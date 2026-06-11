@@ -1,0 +1,13 @@
+import pandas as pd # Khai báo thư viện xử lý dữ lieu bang biểu
+import numpy as np # Khai báo thư viện xử lý dữ liệu mảng
+
+def process_data(energy_path, weather_path, output_path): # Làm sạch dữ liệu 2 data trước khi gộp 
+    df_energy = pd.read_csv(energy_path)  # Chuyển dữ liệu từ đường dẫn (file .csv) sang dữ liệu dạng data frame
+    df_weather = pd.read_csv(weather_path)
+
+    # Xử lí dữ liệu năng lượng: 
+    df_energy['time'] = pd.to_datetime(df_energy['time'], utc=True) # Chỉnh lại múi giờ (cột thời gian) về múi giờ tiêu chuẩn. 
+    df_energy.set_index('time', inplace=True) # Thêm index cho df và lấy index theo cột time luôn
+    
+     
+    
