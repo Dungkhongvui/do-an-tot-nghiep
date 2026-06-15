@@ -1,6 +1,6 @@
-PWD c:\Data\Careers\HUST\Do-an-tot-nghiep\Thesis
+PWD c:\Data\Do-an-tot-nghiep\Thesis
 INPUT C:\Users\LAPTOP\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Data\Careers\HUST\Do-an-tot-nghiep\Thesis\main.tex
+INPUT c:\Data\Do-an-tot-nghiep\Thesis\main.tex
 OUTPUT main.log
 INPUT .\thesis.cls
 INPUT thesis.cls
