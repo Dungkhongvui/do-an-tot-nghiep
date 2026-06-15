@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1776590807.14237 "main.aux" "main.bbl" "main" 1779435590.24959 0
+["bibtex main"] 1776590807.14237 "main.aux" "main.bbl" "main" 1781538275.71265 0
   "./citation.bib" 1776590529 739 f640073c9d90f67aa12da1d348802028 ""
   "C:/Users/LAPTOP/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1779435589 4360 05f59f02374a2355bc8767d1b5ffc601 "pdflatex"
+  "main.aux" 1781538274 4360 05f59f02374a2355bc8767d1b5ffc601 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779435586.83168 "c:/Data/Careers/HUST/Do-an-tot-nghiep/Thesis/main.tex" "main.pdf" "main" 1779435590.25027 0
+["pdflatex"] 1781538273.11858 "c:/Data/Do-an-tot-nghiep/Thesis/main.tex" "main.pdf" "main" 1781538275.71324 0
   "C:/Users/LAPTOP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776590696 130996 9e1951243030ec5aa50336e71d94b677 ""
   "C:/Users/LAPTOP/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1766500893 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/LAPTOP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766500693 24225519 e03650a6364310a4ef1233b8e4111fcf ""
@@ -155,15 +155,15 @@
   "C:/Users/LAPTOP/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/LAPTOP/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "ICE36.pdf" 1776590529 61131 622f2a25bc79b64578d8c43d7feb8eda ""
-  "c:/Data/Careers/HUST/Do-an-tot-nghiep/Thesis/main.tex" 1779435585 15196 3b44384ccb4df2b3f321d5f2561a5d39 ""
+  "c:/Data/Do-an-tot-nghiep/Thesis/main.tex" 1781538272 16676 0c07d22f75d50dbf46aa035f31a73f4f ""
   "logoBK.png" 1776590529 15776 42953f7ea52862702843907228b672e1 ""
-  "main.aux" 1779435589 4360 05f59f02374a2355bc8767d1b5ffc601 "pdflatex"
+  "main.aux" 1781538274 4360 05f59f02374a2355bc8767d1b5ffc601 "pdflatex"
   "main.bbl" 1776590807 1474 0d9e446274ed6d21bfe5ea550a9fd846 "bibtex main"
-  "main.lof" 1779435589 143 9b9b7c0e6f3f0897da09718ab21574c1 "pdflatex"
-  "main.lot" 1779435589 131 8cc0acc66ec48e768dfb5fe71cde7359 "pdflatex"
-  "main.out" 1779435589 3702 81f19c06fee43ffdcf25b504f9087c0c "pdflatex"
-  "main.tex" 1779435585 15196 3b44384ccb4df2b3f321d5f2561a5d39 ""
-  "main.toc" 1779435589 2374 718ba59ee1fad837ac5cbd10e19f6ca5 "pdflatex"
+  "main.lof" 1781538274 143 9b9b7c0e6f3f0897da09718ab21574c1 "pdflatex"
+  "main.lot" 1781538274 131 8cc0acc66ec48e768dfb5fe71cde7359 "pdflatex"
+  "main.out" 1781538274 3702 81f19c06fee43ffdcf25b504f9087c0c "pdflatex"
+  "main.tex" 1781538272 16676 0c07d22f75d50dbf46aa035f31a73f4f ""
+  "main.toc" 1781538274 2374 718ba59ee1fad837ac5cbd10e19f6ca5 "pdflatex"
   "thesis.cls" 1776590529 5687 a14797cacc12e7a8c6347e84ce977bdc ""
   (generated)
   "main.aux"
